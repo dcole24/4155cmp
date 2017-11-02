@@ -6,35 +6,4 @@
     android:layout_height="match_parent"
     tools:context="com.example.daniel.a4155cmp.PaintingActivity">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="135dp"
-        android:layout_height="106dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="158dp" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="135dp"
-        android:layout_height="106dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="193dp"
-        tools:layout_editor_absoluteY="158dp" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="135dp"
-        android:layout_height="106dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="308dp" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="135dp"
-        android:layout_height="106dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="193dp"
-        tools:layout_editor_absoluteY="308dp" />
 </android.support.constraint.ConstraintLayout>
