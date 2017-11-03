@@ -2,4 +2,13 @@
     <string name="app_name">Maaco Training App</string>
     <string name="edit_message">Search</string>
     <string name="button_search">Search</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="painting1">As with the primer, mix the paint with thinners using the recommended ratios on the paint can instructions.</string>
+    <string name="painting2">Apply the topcoat paint.Each coat will take about 10 minutes to apply per panel and between 20 minutes to an hour between recoating for the paint to cure.</string>
+    <string name="painting3">Apply three to four coats using the recommended drying time specified on the paint can instructions between coats.</string>
 </resources>
