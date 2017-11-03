@@ -8,56 +8,60 @@
 
     <CheckBox
         android:id="@+id/CheckBox_Painting"
-        android:layout_width="329dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="14dp"
-        android:text="CheckBox"
+        android:layout_width="0dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="15dp"
+        android:text="@string/painting1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
         tools:text="As with the primer, mix the paint with thinners using the recommended ratios on the paint can instructions." />
 
     <CheckBox
         android:id="@+id/CheckBox_Painting2"
-        android:layout_width="329dp"
-        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_height="71dp"
         android:layout_marginStart="15dp"
-        android:text="CheckBox"
+        android:text="@string/painting2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/CheckBox_Painting"
         tools:text="Apply the topcoat paint.Each coat will take about 10 minutes to apply per panel and between 20 minutes to an hour between recoating for the paint to cure." />
 
     <CheckBox
         android:id="@+id/CheckBox_Painting3"
-        android:layout_width="328dp"
-        android:layout_height="0dp"
-        android:text="CheckBox"
+        android:layout_width="0dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="15dp"
+        android:text="@string/painting3"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/CheckBox_Painting2"
-        tools:layout_editor_absoluteX="16dp"
         tools:text="Apply three to four coats using the recommended drying time specified on the paint can instructions between coats." />
 
     <CheckBox
         android:id="@+id/CheckBox_Painting4"
-        android:layout_width="334dp"
-        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="15dp"
         android:text="Remove the masking while the clear coat is still wet, being careful not to get any tape or paper stuck on the wet paint. "
-        app:layout_constraintTop_toBottomOf="@+id/CheckBox_Painting3"
-        tools:layout_editor_absoluteX="13dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CheckBox_Painting3" />
 
     <CheckBox
         android:id="@+id/CheckBox_Painting6"
-        android:layout_width="335dp"
-        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="15dp"
         android:text="Let the clear coat cure for the recommended time. Inspect the finished job for runs or imperfections.If you find any, sand back affected area with 2000-grit wet-and-dry sandpaper and respray."
-        app:layout_constraintTop_toBottomOf="@+id/CheckBox_Painting4"
-        tools:layout_editor_absoluteX="13dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CheckBox_Painting4" />
 
     <CheckBox
         android:id="@+id/checkBox_Painting6"
-        android:layout_width="337dp"
-        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="15dp"
         android:text="Buff paint in circular motions with a buffer, being careful not to burn the paint by holding the buffer in one spot too long."
-        app:layout_constraintTop_toBottomOf="@+id/CheckBox_Painting6"
-        tools:layout_editor_absoluteX="12dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CheckBox_Painting6" />
 
     <ImageView
         android:id="@+id/imageView2"
