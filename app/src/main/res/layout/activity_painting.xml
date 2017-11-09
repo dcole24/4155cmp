@@ -14,7 +14,7 @@
         app:layout_constraintBottom_toTopOf="@+id/CheckBox_Painting"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.326" />
+        app:layout_constraintVertical_bias="0.326" android:contentDescription="@string/todo" />
 
     <CheckBox
         android:id="@+id/CheckBox_Painting"
@@ -52,7 +52,7 @@
         android:layout_width="0dp"
         android:layout_height="70dp"
         android:layout_marginStart="16dp"
-        android:text="Remove the masking while the clear coat is still wet, being careful not to get any tape or paper stuck on the wet paint. "
+        android:text="@string/remove_the_masking_while_the_clear_coat_is_still_wet_being_careful_not_to_get_any_tape_or_paper_stuck_on_the_wet_paint"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/CheckBox_Painting3" />
 
@@ -61,7 +61,7 @@
         android:layout_width="0dp"
         android:layout_height="84dp"
         android:layout_marginStart="16dp"
-        android:text="Let the clear coat cure for the recommended time. Inspect the finished job for runs or imperfections.If you find any, sand back affected area with 2000-grit wet-and-dry sandpaper and respray."
+        android:text="@string/let_the_clear_coat_cure_for_the_recommended_time_inspect_the_finished_job_for_runs_or_imperfections_if_you_find_any_sand_back_affected_area_with_2000_grit_wet_and_dry_sandpaper_and_respray"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/CheckBox_Painting4" />
 
@@ -70,7 +70,7 @@
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginStart="16dp"
-        android:text="Buff paint in circular motions with a buffer, being careful not to burn the paint by holding the buffer in one spot too long."
+        android:text="@string/buff_paint_in_circular_motions_with_a_buffer_being_careful_not_to_burn_the_paint_by_holding_the_buffer_in_one_spot_too_long"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/CheckBox_Painting6" />
 
