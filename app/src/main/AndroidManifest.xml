@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".PaintingActivity" />
-        <activity android:name=".Detailing"></activity>
+        <activity android:name=".Detailing" />
+        <activity android:name=".SandingActivity"></activity>
     </application>
 
 </manifest>
