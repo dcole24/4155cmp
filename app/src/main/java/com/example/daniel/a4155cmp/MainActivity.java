@@ -12,12 +12,27 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button Painting = (Button) findViewById(R.id.Painting);
+        Button bPainting = findViewById(R.id.Painting);
+        Button bDetailing = findViewById(R.id.Detailing);
 
-        Painting.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
-                startActivity(new Intent(MainActivity.this, PaintingActivity.class));
+
+        bPainting.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent paintingIntent = new Intent(MainActivity.this, PaintingActivity.class);
+                MainActivity.this.startActivity(paintingIntent);
             }
         });
+
+        bDetailing.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent detailingIntent = new Intent(MainActivity.this, Detailing.class);
+                MainActivity.this.startActivity(detailingIntent);
+            }
+        });
+
+
+
     }
 }
