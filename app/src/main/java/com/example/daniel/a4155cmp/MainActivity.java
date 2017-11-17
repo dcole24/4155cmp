@@ -14,6 +14,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Button bPainting = findViewById(R.id.Painting);
         Button bDetailing = findViewById(R.id.Detailing);
+        Button bSanding = findViewById(R.id.Sanding);
+
 
 
         bPainting.setOnClickListener(new View.OnClickListener(){
@@ -29,6 +31,14 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent detailingIntent = new Intent(MainActivity.this, Detailing.class);
                 MainActivity.this.startActivity(detailingIntent);
+            }
+        });
+
+        bSanding.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent sandingIntent = new Intent(MainActivity.this, SandingActivity.class);
+                MainActivity.this.startActivity(sandingIntent);
             }
         });
 

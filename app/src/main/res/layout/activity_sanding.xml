@@ -11,18 +11,17 @@
         android:layout_width="wrap_content"
         android:layout_height="68dp"
         android:src="@drawable/logo"
-        app:layout_constraintBottom_toTopOf="@+id/CheckBox_Sanding"
+        app:layout_constraintBottom_toTopOf="@+id/CheckBox_Painting"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.326" android:contentDescription="@string/todo" />
 
     <CheckBox
-        android:id="@+id/CheckBox_Sanding"
+        android:id="@+id/CheckBox_Painting"
         android:layout_width="0dp"
         android:layout_height="63dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
-        android:text="@string/painting1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
         tools:text="Checkbox." />
