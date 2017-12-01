@@ -10,11 +10,11 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="68dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/todo"
         android:src="@drawable/logo"
-        app:layout_constraintBottom_toTopOf="@+id/CheckBox_Painting"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.326" android:contentDescription="@string/todo" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <CheckBox
         android:id="@+id/CheckBox_Painting"
@@ -25,7 +25,7 @@
         android:text="@string/painting1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        tools:text="As with the primer, mix the paint with thinners using the recommended ratios on the paint can instructions." />
+        tools:text="As with the primer, mix the paint with thinners using \nthe recommended ratios on the paint can instructions." />
 
     <CheckBox
         android:id="@+id/CheckBox_Painting2"
@@ -35,7 +35,7 @@
         android:text="@string/painting2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/CheckBox_Painting"
-        tools:text="Apply the topcoat paint.Each coat will take about 10 minutes to apply per panel and between 20 minutes to an hour between recoating for the paint to cure." />
+        tools:text="Apply the topcoat paint.Each coat will take about 10 minutes to apply per panel and between 20 minutes \nto an hour between recoating for the paint to cure." />
 
     <CheckBox
         android:id="@+id/CheckBox_Painting3"
@@ -45,7 +45,7 @@
         android:text="@string/painting3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/CheckBox_Painting2"
-        tools:text="Apply three to four coats using the recommended drying time specified on the paint can instructions between coats." />
+        tools:text="Apply three to four coats using the recommended \ndrying time specified on the paint can instructions between coats." />
 
     <CheckBox
         android:id="@+id/CheckBox_Painting4"
