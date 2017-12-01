@@ -66,16 +66,5 @@
         app:layout_constraintTop_toBottomOf="@+id/CheckBox_Sanding4"
         tools:text="Wait until the residue from the thinner evaporates completely before continuing." />
 
-    <ProgressBar
-        android:id="@+id/determinateBar"
-        style="@android:style/Widget.ProgressBar.Horizontal"
-        android:layout_width="236dp"
-        android:layout_height="23dp"
-        android:layout_marginStart="72dp"
-        android:layout_marginTop="12dp"
-        android:progress="25"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/CheckBox_Sanding5" />
-
 
 </android.support.constraint.ConstraintLayout>
