@@ -16,6 +16,17 @@
     <string name="masking">Masking</string>
     <string name="sanding">Sanding</string>
     <string name="detailing">Detailing</string>
+    <string name="detailing1">Remove and wash mats.</string>
+    <string name="detailing2">Vacuum all surfaces, including dashboard, back shelf, and under seats.</string>
+    <string name="detailing3">Spot clean stains with foaming cleaner. Let cleaner sit and blot dry.</string>
+    <string name="detailing4">Patch up burn areas and holes.</string>
+    <string name="detailing5">Clean and dust interior surfaces with all purpose cleaner and compressed air.</string>
+    <string name="detailing6">Clean the glass, including windshield, with glass cleaner.</string>
+    <string name="detailing7">Clean exterior of the car.</string>
+    <string name="detailing8">Clean wheel wells.</string>
+    <string name="detailing9">Inspect paint.</string>
+    <string name="detailing10">Under the hood, clean around electronic components by wrapping in plastic.</string>
+    <string name="detailing11">Make sure tires are dry before moving vehicle.</string>
     <string name="remove_the_masking_while_the_clear_coat_is_still_wet_being_careful_not_to_get_any_tape_or_paper_stuck_on_the_wet_paint">Remove the masking while the clear coat is still wet, being careful not to get any tape or paper stuck on the wet paint.</string>
     <string name="let_the_clear_coat_cure_for_the_recommended_time_inspect_the_finished_job_for_runs_or_imperfections_if_you_find_any_sand_back_affected_area_with_2000_grit_wet_and_dry_sandpaper_and_respray">Let the clear coat cure for the recommended time. Inspect the finished job for runs or imperfections.If you find any, sand back affected area with 2000-grit wet-and-dry sandpaper and respray.</string>
     <string name="buff_paint_in_circular_motions_with_a_buffer_being_careful_not_to_burn_the_paint_by_holding_the_buffer_in_one_spot_too_long">Buff paint in circular motions with a buffer, being careful not to burn the paint by holding the buffer in one spot too long.</string>

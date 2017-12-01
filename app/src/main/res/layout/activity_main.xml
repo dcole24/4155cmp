@@ -32,20 +32,20 @@
         android:layout_weight="1" >
 
         <Button
-            android:id="@+id/Painting"
+            android:id="@+id/Detailing"
             android:layout_width="0dip"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:backgroundTint="@android:color/holo_red_dark"
-            android:text="@string/painting" />
+            android:text="Detailing" />
 
         <Button
-            android:id="@+id/Masking"
+            android:id="@+id/Sanding"
             android:layout_width="0dip"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:backgroundTint="@android:color/holo_blue_dark"
-            android:text="@string/masking" />
+            android:text="@string/sanding" />
     </LinearLayout>
 
     <LinearLayout
@@ -55,20 +55,20 @@
         android:layout_weight="1" >
 
         <Button
-            android:id="@+id/Sanding"
+            android:id="@+id/Masking"
             android:layout_width="0dip"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:backgroundTint="@android:color/background_light"
-            android:text="@string/sanding" />
+            android:text="@string/masking" />
 
         <Button
-            android:id="@+id/Detailing"
+            android:id="@+id/Painting"
             android:layout_width="0dip"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:backgroundTint="@android:color/holo_red_dark"
-            android:text="@string/detailing" />
+            android:text="Painting" />
     </LinearLayout>
 
 </LinearLayout>
