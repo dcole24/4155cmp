@@ -35,20 +35,20 @@
         android:layout_weight="1" >
 
         <Button
-            android:id="@+id/Detailing"
-            android:layout_width="0dip"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:backgroundTint="@android:color/holo_red_dark"
-            android:text="Detailing" />
-
-        <Button
             android:id="@+id/Sanding"
             android:layout_width="0dip"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:backgroundTint="@android:color/holo_red_dark"
+            android:text="SANDING" />
+
+        <Button
+            android:id="@+id/bMasking"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
             android:backgroundTint="@android:color/holo_blue_dark"
-            android:text="@string/sanding" />
+            android:text="MASKING" />
     </LinearLayout>
 
     <LinearLayout
@@ -58,20 +58,20 @@
         android:layout_weight="1" >
 
         <Button
-            android:id="@+id/Masking"
-            android:layout_width="0dip"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:backgroundTint="@android:color/background_light"
-            android:text="@string/masking" />
-
-        <Button
             android:id="@+id/Painting"
             android:layout_width="0dip"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:backgroundTint="@android:color/background_light"
+            android:text="PAINTING" />
+
+        <Button
+            android:id="@+id/Detailing"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
             android:backgroundTint="@android:color/holo_red_dark"
-            android:text="Painting" />
+            android:text="Detailing" />
     </LinearLayout>
 
 </LinearLayout>

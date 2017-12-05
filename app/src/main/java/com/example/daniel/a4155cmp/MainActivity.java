@@ -15,14 +15,15 @@ public class MainActivity extends AppCompatActivity {
         Button bPainting = findViewById(R.id.Painting);
         Button bDetailing = findViewById(R.id.Detailing);
         Button bSanding = findViewById(R.id.Sanding);
+        Button bMasking = findViewById(R.id.bMasking);
 
 
-
-        bPainting.setOnClickListener(new View.OnClickListener(){
+        bPainting.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view){
+            public void onClick(View view) {
                 Intent paintingIntent = new Intent(MainActivity.this, PaintingActivity.class);
                 MainActivity.this.startActivity(paintingIntent);
+
             }
         });
 
@@ -31,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent detailingIntent = new Intent(MainActivity.this, Detailing.class);
                 MainActivity.this.startActivity(detailingIntent);
+
             }
         });
 
@@ -39,10 +41,23 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent sandingIntent = new Intent(MainActivity.this, SandingActivity.class);
                 MainActivity.this.startActivity(sandingIntent);
+
             }
         });
 
 
+        bMasking.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent maskingIntent = new Intent(MainActivity.this, MaskingActivity.class);
+                MainActivity.this.startActivity(maskingIntent);
+
+            }
+        });
+
 
     }
+
+
+
 }

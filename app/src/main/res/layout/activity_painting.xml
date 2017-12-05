@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
+
+
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.daniel.a4155cmp.PaintingActivity">
+
+
 
     <ImageView
         android:id="@+id/imageView"
@@ -18,13 +22,14 @@
 
     <CheckBox
         android:id="@+id/CheckBox_Painting"
-        android:layout_width="0dp"
-        android:layout_height="63dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="69dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginStart="3dp"
+        android:saveEnabled="true"
         android:text="@string/painting1"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
         tools:text="As with the primer, mix the paint with thinners using \nthe recommended ratios on the paint can instructions." />
@@ -33,8 +38,8 @@
         android:id="@+id/CheckBox_Painting2"
         android:layout_width="0dp"
         android:layout_height="83dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginStart="3dp"
         android:text="@string/painting2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -45,8 +50,8 @@
         android:id="@+id/CheckBox_Painting3"
         android:layout_width="0dp"
         android:layout_height="66dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginStart="3dp"
         android:text="@string/painting3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -57,8 +62,8 @@
         android:id="@+id/CheckBox_Painting4"
         android:layout_width="0dp"
         android:layout_height="70dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginStart="3dp"
         android:text="@string/remove_the_masking_while_the_clear_coat_is_still_wet_being_careful_not_to_get_any_tape_or_paper_stuck_on_the_wet_paint"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -68,8 +73,8 @@
         android:id="@+id/CheckBox_Painting6"
         android:layout_width="0dp"
         android:layout_height="84dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginStart="3dp"
         android:text="@string/let_the_clear_coat_cure_for_the_recommended_time_inspect_the_finished_job_for_runs_or_imperfections_if_you_find_any_sand_back_affected_area_with_2000_grit_wet_and_dry_sandpaper_and_respray"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -79,8 +84,8 @@
         android:id="@+id/checkBox_Painting6"
         android:layout_width="0dp"
         android:layout_height="50dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginStart="3dp"
         android:text="@string/buff_paint_in_circular_motions_with_a_buffer_being_careful_not_to_burn_the_paint_by_holding_the_buffer_in_one_spot_too_long"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -88,3 +93,4 @@
 
 
 </android.support.constraint.ConstraintLayout>
+

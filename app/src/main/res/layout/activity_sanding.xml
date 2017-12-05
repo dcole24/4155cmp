@@ -8,9 +8,10 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="384dp"
-        android:layout_height="68dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="283dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="7dp"
         android:contentDescription="@string/todo"
         android:src="@drawable/logo"
         app:layout_constraintStart_toStartOf="parent"
@@ -20,51 +21,65 @@
         android:id="@+id/CheckBox_Sanding1"
         android:layout_width="0dp"
         android:layout_height="63dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="5dp"
+
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/sanding1"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        android:text="@string/sanding1"/>
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <CheckBox
         android:id="@+id/CheckBox_Sanding2"
         android:layout_width="0dp"
         android:layout_height="63dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="2dp"
+        android:text="@string/sanding2"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/CheckBox_Sanding1"
-        android:text="@string/sanding2"/>
+        app:layout_constraintTop_toBottomOf="@+id/CheckBox_Sanding1" />
 
     <CheckBox
         android:id="@+id/CheckBox_Sanding3"
         android:layout_width="0dp"
         android:layout_height="63dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="2dp"
+        android:text="@string/sanding3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/CheckBox_Sanding2"
-        android:text="@string/sanding3" />
+        app:layout_constraintTop_toBottomOf="@+id/CheckBox_Sanding2" />
 
     <CheckBox
         android:id="@+id/CheckBox_Sanding4"
         android:layout_width="0dp"
         android:layout_height="63dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="2dp"
+        android:text="@string/sanding4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/CheckBox_Sanding3"
-        android:text="@string/sanding4" />
+        app:layout_constraintTop_toBottomOf="@+id/CheckBox_Sanding3" />
 
     <CheckBox
         android:id="@+id/CheckBox_Sanding5"
         android:layout_width="0dp"
         android:layout_height="63dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="2dp"
+        android:text="@string/sanding5"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/CheckBox_Sanding4"
-        android:text="@string/sanding5" />
+        app:layout_constraintTop_toBottomOf="@+id/CheckBox_Sanding4" />
 
 
 </android.support.constraint.ConstraintLayout>

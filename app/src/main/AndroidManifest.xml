@@ -16,9 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PaintingActivity" />
-        <activity android:name=".Detailing" />
-        <activity android:name=".SandingActivity"/>
+
+        <activity android:name=".PaintingActivity"
+            android:label="Painting"/>
+        <activity android:name=".Detailing"
+            android:label="Detailing"/>
+        <activity android:name=".SandingActivity"
+            android:label="Sanding "/>
     </application>
 
 </manifest>
