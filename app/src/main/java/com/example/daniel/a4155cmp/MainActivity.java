@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -12,10 +13,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button bPainting = findViewById(R.id.Painting);
-        Button bDetailing = findViewById(R.id.Detailing);
-        Button bSanding = findViewById(R.id.Sanding);
-        Button bMasking = findViewById(R.id.bMasking);
+        ImageButton bPainting = findViewById(R.id.Painting);
+        ImageButton bDetailing = findViewById(R.id.Detailing);
+        ImageButton bSanding = findViewById(R.id.Sanding);
+        ImageButton bMasking = findViewById(R.id.Masking);
+        ImageButton bVideo = findViewById(R.id.video);
 
 
         bPainting.setOnClickListener(new View.OnClickListener() {

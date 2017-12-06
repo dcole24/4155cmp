@@ -11,13 +11,13 @@
         android:layout_weight="1"
         android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/Preperation"
-            android:layout_width="0dip"
+        <ImageButton
+            android:id="@+id/video"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:backgroundTint="@android:color/holo_blue_dark"
-            android:text="@string/preperation" />
+            android:visibility="visible"
+            app:srcCompat="@drawable/video" />
 
         <ImageView
             android:layout_width="0dp"
@@ -29,26 +29,27 @@
     </LinearLayout>
 
     <LinearLayout
+
         android:layout_width="match_parent"
         android:layout_height="0dip"
         android:orientation="horizontal"
         android:layout_weight="1" >
 
-        <Button
+        <ImageButton
             android:id="@+id/Sanding"
-            android:layout_width="0dip"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:backgroundTint="@android:color/holo_red_dark"
-            android:text="SANDING" />
+            android:visibility="visible"
+            app:srcCompat="@drawable/sanding" />
 
-        <Button
-            android:id="@+id/bMasking"
-            android:layout_width="0dip"
+        <ImageButton
+            android:id="@+id/Masking"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:backgroundTint="@android:color/holo_blue_dark"
-            android:text="MASKING" />
+            android:visibility="visible"
+            app:srcCompat="@drawable/masking" />
     </LinearLayout>
 
     <LinearLayout
@@ -57,21 +58,21 @@
         android:orientation="horizontal"
         android:layout_weight="1" >
 
-        <Button
+        <ImageButton
             android:id="@+id/Painting"
-            android:layout_width="0dip"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:backgroundTint="@android:color/background_light"
-            android:text="PAINTING" />
+            android:visibility="visible"
+            app:srcCompat="@drawable/painting" />
 
-        <Button
+        <ImageButton
             android:id="@+id/Detailing"
-            android:layout_width="0dip"
+            android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:backgroundTint="@android:color/holo_red_dark"
-            android:text="Detailing" />
+            android:visibility="visible"
+            app:srcCompat="@drawable/detailing" />
     </LinearLayout>
 
 </LinearLayout>

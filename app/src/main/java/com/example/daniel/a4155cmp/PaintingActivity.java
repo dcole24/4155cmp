@@ -19,7 +19,7 @@ public class PaintingActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_painting);
 
-        Button videoBtn = findViewById(R.id.videoButton);
+//        Button videoBtn = findViewById(R.id.videoButton);
 
         final CheckBox checkBox = findViewById(R.id.CheckBox_Painting);
         if (checkBox.isChecked()) {
@@ -28,13 +28,16 @@ public class PaintingActivity extends AppCompatActivity {
 
 
 
-        videoBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                vView.start();
-            }
-        });
+//        videoBtn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                VideoView vView = findViewById(R.id.myVideo);
+//                String path = "android.resource://" + getPackageName() + "/" + R.raw.painting;
+//
+//                vView.setVideoURI(Uri.parse(path));
+//                vView.start();
+//            }
+       // });
 
 
     }
