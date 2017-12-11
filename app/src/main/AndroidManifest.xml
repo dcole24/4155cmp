@@ -16,13 +16,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".PaintingActivity"
-            android:label="Painting"/>
-        <activity android:name=".Detailing"
-            android:label="Detailing"/>
-        <activity android:name=".SandingActivity"
-            android:label="Sanding "/>
+        <activity
+            android:name=".PaintingActivity"
+            android:label="Painting" />
+        <activity
+            android:name=".Detailing"
+            android:label="Detailing" />
+        <activity
+            android:name=".SandingActivity"
+            android:label="Sanding " />
+        <activity
+            android:name=".MaskingActivity"
+            android:label="Masking " />
+        <activity android:name=".paintingvideo" />
+        <activity android:name=".sandingvideo" />
+        <activity android:name=".maskingvideo" />
+        <activity android:name=".detailingvideo" />
+        <activity android:name=".VideoActivity"></activity>
     </application>
 
 </manifest>

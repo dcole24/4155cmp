@@ -16,11 +16,12 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
+        android:layout_width="411dp"
         android:layout_height="68dp"
         android:layout_marginTop="16dp"
         android:contentDescription="@string/todo"
         android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -44,6 +45,7 @@
         android:layout_height="83dp"
         android:layout_marginEnd="3dp"
         android:layout_marginStart="3dp"
+        android:saveEnabled="true"
         android:text="@string/painting2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -56,6 +58,7 @@
         android:layout_height="66dp"
         android:layout_marginEnd="3dp"
         android:layout_marginStart="3dp"
+        android:saveEnabled="true"
         android:text="@string/painting3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -68,17 +71,19 @@
         android:layout_height="70dp"
         android:layout_marginEnd="3dp"
         android:layout_marginStart="3dp"
+        android:saveEnabled="true"
         android:text="@string/remove_the_masking_while_the_clear_coat_is_still_wet_being_careful_not_to_get_any_tape_or_paper_stuck_on_the_wet_paint"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/CheckBox_Painting3" />
 
     <CheckBox
-        android:id="@+id/CheckBox_Painting6"
+        android:id="@+id/CheckBox_Painting5"
         android:layout_width="0dp"
         android:layout_height="84dp"
         android:layout_marginEnd="3dp"
         android:layout_marginStart="3dp"
+        android:saveEnabled="true"
         android:text="@string/let_the_clear_coat_cure_for_the_recommended_time_inspect_the_finished_job_for_runs_or_imperfections_if_you_find_any_sand_back_affected_area_with_2000_grit_wet_and_dry_sandpaper_and_respray"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -90,18 +95,28 @@
         android:layout_height="50dp"
         android:layout_marginEnd="3dp"
         android:layout_marginStart="3dp"
+        android:saveEnabled="true"
         android:text="@string/buff_paint_in_circular_motions_with_a_buffer_being_careful_not_to_burn_the_paint_by_holding_the_buffer_in_one_spot_too_long"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/CheckBox_Painting6" />
+        app:layout_constraintTop_toBottomOf="@+id/CheckBox_Painting5" />
 
-    <!--<Button-->
-        <!--android:id="@+id/videoButton"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:text="Play Video"-->
-        <!--tools:layout_editor_absoluteX="161dp"-->
-        <!--tools:layout_editor_absoluteY="539dp" />-->
+    <Button
+        android:id="@+id/playVideo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Video"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="530dp"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox_Painting6"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+
+    />
 
 
 </android.support.constraint.ConstraintLayout>
