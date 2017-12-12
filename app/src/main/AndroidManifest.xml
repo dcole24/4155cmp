@@ -9,30 +9,43 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
         <activity
             android:name=".PaintingActivity"
-            android:label="Painting" />
+            android:label="Painting"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".Detailing"
-            android:label="Detailing" />
+            android:label="Detailing"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".SandingActivity"
-            android:label="Sanding " />
+            android:label="Sanding "
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".MaskingActivity"
-            android:label="Masking " />
+            android:label="Masking "
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
         <activity android:name=".paintingvideo" />
         <activity android:name=".sandingvideo" />
         <activity android:name=".maskingvideo" />
         <activity android:name=".detailingvideo" />
-        <activity android:name=".VideoActivity"></activity>
+        <activity android:name=".VideoActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>
